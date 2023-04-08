@@ -1,0 +1,15 @@
+name: RegionTitles
+version: 1.0
+author: snap20lp
+main: de.snap20lp.regiontitles.Core
+api-version: 1.16
+
+commands:
+  createregion:
+    description: "Create a new region"
+    usage: "/createregion <regionname>"
+    permission: "regiontitles.create"
+  reloadregiontitles:
+    description: "Reload all regions"
+    usage: "/reloadregiontitles"
+    permission: "regiontitles.reload"

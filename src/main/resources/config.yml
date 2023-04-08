@@ -1,0 +1,49 @@
+#Welcome to RegionTitles
+#Here you can configure the plugin and the behavior of the plugin.
+
+RegionTitles:
+  titleCooldownTicks: 80 #The time in ticks the player has to wait until he will get another title in a region. | 20 = 1 second
+
+#Here you can find a list of the sounds
+#https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+
+#Here you can find a list of the color codes
+#https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/4c/Colors.png/revision/latest/scale-to-width-down/131?cb=20200910023706
+
+Regions:
+  ExampleRegion:
+    regionEnterTitle: 'This is a Example Region' #The Title that will be displayed to the player when he enters the region
+    regionEnterSubTitle: 'This is a subtitle' #The Subtitle that will be displayed to the player when he enters the region
+    regionEnterSound: ENTITY_PLAYER_LEVELUP #The Sound the player will hear when he enters the region
+    regionEnterSoundVolume: 100 #The Volume of the sound
+    regionEnterSoundPitch: 1 #The Pitch of the sound
+    regionEnterFadeIn: 20 #The Time in ticks the title will fade in
+    regionEnterStay: 40 #The Time in ticks the title will stay
+    regionEnterFadeOut: 20 #The Time in ticks the title will fade out
+    regionEnterPermissions: '*' #The Permission the player needs to get the title when he enters the region
+    regionLeaveEnabled: false #If true the player will get a title when he leaves the region
+    regionLeaveTitle: 'This is a Example Region' #The Title that will be displayed to the player when he leaves the region
+    regionLeaveSubTitle: 'This is a subtitle' #The Subtitle that will be displayed to the player when he leaves the region
+    regionLeaveSound: ENTITY_PLAYER_LEVELUP #The Sound the player will hear when he leaves the region
+    regionLeaveSoundVolume: 100 #The Volume of the sound
+    regionLeaveSoundPitch: 1 #The Pitch of the sound
+    regionLeaveFadeIn: 20 #The Time in ticks the title will fade in
+    regionLeaveStay: 40 #The Time in ticks the title will stay
+    regionLeaveFadeOut: 20 #The Time in ticks the title will fade out
+    regionLeavePermissions: '*' #The Permission the player needs to get the title when he leaves the region
+    regionLocationOne: #The first location of the region
+      ==: org.bukkit.Location
+      world: world
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0
+    regionLocationTwo: #The second location of the region
+      ==: org.bukkit.Location
+      world: world
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0
